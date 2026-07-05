@@ -1,5 +1,5 @@
 .env
 node_modules
 
-serviceAccountKey.json //en uso solo para el seeder
+serviceAccountKey.json
 seedProducts.js
