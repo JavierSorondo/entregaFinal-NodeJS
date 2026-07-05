@@ -1,0 +1,31 @@
+{
+  "name": "entregafinal",
+  "version": "1.0.0",
+  "description": "Trabajo final del curso de Node.js de Talento Tech - API REST para la gestión de productos con autenticación y autorización. ",
+  "license": "MIT",
+  "author": "J. M. Sorondo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "vitest",
+    "seed": "node seedProducts.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JavierSorondo/entregaFinal-NodeJS.git"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "firebase": "^12.15.0",
+    "firebase-admin": "^14.1.0",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "supertest": "^7.2.2",
+    "vitest": "^4.1.9"
+  }
+}
